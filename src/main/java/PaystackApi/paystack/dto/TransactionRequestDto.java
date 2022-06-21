@@ -4,6 +4,13 @@ import PaystackApi.paystack.enums.Bearers;
 import PaystackApi.paystack.enums.Channels;
 
 public class TransactionRequestDto {
+
+    /**
+     * As we all know,for some transaction to take place,some infos needs to provided
+     * They are requested as far as a transaction is taking place
+     * 1.The transaction fields
+     * 2.we create a setter and a getter for it
+     */
     private String amount;
     private String email;
     private String reference;

@@ -1,5 +1,8 @@
 package PaystackApi.paystack.dto;
 
+/**
+ *These are the datas we're using to access the api-Application programming interface of paystack services
+ */
 public class Datas {
     private String authorization_url;
     private String access_code;
